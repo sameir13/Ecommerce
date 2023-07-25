@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.MainSectionOneHeader {
+  width: 100%;
+  height: auto;
+}
+.navbarMainHeadline {
+  background-color: #1498ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 0;
+  font-size: 16px;
+}
+.MainNavBarDiv {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #48afff;
+}
+.secOne {
+  display: flex;
+  align-items: center;
+}
+.secOne i {
+  cursor: pointer;
+  color: white;
+  font-size: 28px;
+  padding: 10px 10px;
+}
+.logo h2 {
+  margin: 0 10px;
+  color: white;
+  font-size: 30px;
+}
+.secTwo input {
+  border: none;
+  border-radius: 10px;
+  width: 30vw;
+  transition: 0.3 ease-in-out;
+  font-size: 15px;
+  padding: 12px 10px;
+}
+.secTwo input:focus {
+  outline: none;
+}
+.loginBtn {
+  margin: 0px 10px;
+  padding: 5px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+  color: #1498ff;
+}
+.RegisterBtn {
+  padding: 5px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  border: 1px solid white;
+  background-color: #1498ff;
+  color: white;
+}
+@media (max-width: 677px) {
+  .secThree {
+    display: none;
+  }
+  .secTwo input {
+    width: 100%;
+  }
+  .MainNavBarDiv {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+.slickSubChild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 40px;
+  border: 2px solid white;
+  margin-bottom: 10px;
+}
+.slickSubChild:hover {
+  cursor: pointer;
+  background-color: #f1f3f6;
+  border-bottom: 2px solid #1498ff;
+}
+.SlickDisplayDiv {
+    margin: auto;
+    width: 85%;
+}
+.MainDivSectionOneFit{
+  object-fit: cover;
+  height: 100%;
+}
+.MainDivSectionOneFit img{
+    max-width: 100%;
+    max-height: 500px;
+}
+
+@media (max-width:450px) {
+
+    .MainDivSectionOneFit img{
+        max-width: 100%;
+        max-height: 500px;
+        object-fit: inherit;
+        min-height: 200px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
