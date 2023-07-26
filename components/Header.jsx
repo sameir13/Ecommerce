@@ -180,27 +180,23 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="MainHeroSlider" style={{backgroundColor:"#f1f3f6"}}>
-        <Slider  {...main}>
-      
-            <div className="MainDivSectionOneFit">
-              <img src="/images/hero1.jpg" alt="" className="MainSlickImage" />
-            </div>
-       
-      
-            <div className="MainDivSectionOneFit">
-              <img src="/images/hero2.jpg" alt="" className="MainSlickImage" />
-            </div>
-         
-    
-            <div className="MainDivSectionOneFit">
-              <img src="/images/hero3.jpg" alt="" className="MainSlickImage" />
-            </div>
-       
-            <div className="MainDivSectionOneFit">
-              <img src="/images/hero4.jpg" alt="" className="MainSlickImage" />
-            </div>
-   
+      <div className="MainHeroSlider" style={{ backgroundColor: "#f1f3f6" }}>
+        <Slider {...main}>
+          <div className="MainDivSectionOneFit">
+            <img src="/images/hero1.jpg" alt="" className="MainSlickImage" />
+          </div>
+
+          <div className="MainDivSectionOneFit">
+            <img src="/images/hero2.jpg" alt="" className="MainSlickImage" />
+          </div>
+
+          <div className="MainDivSectionOneFit">
+            <img src="/images/hero3.jpg" alt="" className="MainSlickImage" />
+          </div>
+
+          <div className="MainDivSectionOneFit">
+            <img src="/images/hero4.jpg" alt="" className="MainSlickImage" />
+          </div>
         </Slider>
       </div>
     </section>

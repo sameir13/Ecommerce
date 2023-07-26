@@ -1,18 +1,17 @@
 .ProductsGridMain {
   padding: 0 20px;
-  display: grid;
-  gap: 20px;
   width: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .ProductGridCard {
+  margin: 10px 0;
   border-radius: 7px;
-  background-color: rgb(163, 163, 163);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   height: 100%;
   width: 100%;
 }
 .CardImage {
+  margin: 0 10px;
+
   border-radius: 7px 7px 0 0;
   padding: 10px;
   background-color: white;
@@ -25,6 +24,8 @@
   width: 140px;
 }
 .gridCardText {
+  margin: 0 10px;
+
   border-radius: 0 0 7px 7px;
   padding: 10px;
   background-color: white;
@@ -44,28 +45,14 @@
   font-size: 20px;
   color: rgb(161, 159, 159);
 }
-.DashboardProd p {
-  transition: 0.3s ease-in-out;
-  color: rgb(87, 87, 165);
-  font-size: 17px;
-}
-.DashboardProd p:hover {
-  color: orangered;
-  font-size: 17px;
-}
-@media (max-width: 957px) {
-  .ProductsGridMain {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-@media (max-width: 757px) {
-  .ProductsGridMain {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
-@media (max-width: 514px) {
-  .ProductsGridMain {
-    grid-template-columns: 1fr;
+.gridCardText {
+  & p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  & h2 {
+    font-size: 17px;
   }
 }
