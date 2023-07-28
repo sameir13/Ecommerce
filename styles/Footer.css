@@ -30,11 +30,105 @@
   }
 }
 
-
-
 /* FOOTER*/
 
-.ProductLandingPageFooter{
-    background-color: #48AFFF;
-    height: 40vh;
+.ProductLandingPageFooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr;
+  background-color: #48afff;
+}
+.footerMainCol1Links {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+
+  & a {
+    margin-left: 10px;
+    margin-top: 3px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color: rgb(228, 226, 226);
+    font: 7px;
+  }
+}
+.FooterDivCol1 {
+  padding: 30px 50px;
+
+  .footerMainLogo {
+    margin-bottom: 20px;
+    & img {
+      height: auto;
+      width: 100px;
+    }
+
+    & p {
+      color: white;
+      font-size: 15px;
+    }
+  }
+}
+
+.FooterMainHelpIcons {
+  flex-wrap: wrap;
+  background-color: #3eabff;
+  width: 100%;
+  padding: 16px 50px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.helpMainDiv1 {
+  display: flex;
+  align-items: center;
+
+  & i {
+    border: 1px solid white;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 10px;
+  }
+  & i:hover {
+    background-color: white;
+    color: #3eabff;
+  }
+}
+.helpMainDiv1 {
+  & p {
+    color: white;
+    font-size: 17px;
+  }
+}
+
+.FooterPaymentDiv {
+  & img {
+    object-fit: cover;
+    height: auto;
+    max-width: 330px;
+  }
+
+  & p {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 854px) {
+  .ProductLandingPageFooter {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 558px) {
+  .ProductLandingPageFooter {
+    grid-template-columns: 1fr;
+  }
 }
