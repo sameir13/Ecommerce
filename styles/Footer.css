@@ -126,9 +126,23 @@
   .ProductLandingPageFooter {
     grid-template-columns: 1fr 1fr;
   }
+  .bannerDiv {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 558px) {
   .ProductLandingPageFooter {
     grid-template-columns: 1fr;
+  }
+  .FooterDivCol1 {
+    padding: 30px 20px;
+  }
+  .FooterMainHelpIcons {
+    justify-content: center;
+    align-items: center;
+  }
+  .bannerDiv {
+    margin-top: 20px;
+    height: 100%;
   }
 }
