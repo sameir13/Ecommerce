@@ -146,6 +146,7 @@ const Products = () => {
                 </div>
                 <div className="gridCardText">
                   <p>
+                  
                     Soundpeats GoFree Open Ear Extreme Comfort Sport Earbuds{" "}
                   </p>
 

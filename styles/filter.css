@@ -1,0 +1,52 @@
+.filterBtnDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px ;
+    padding: 0 20px;
+
+    & button{
+    font-weight: 600;
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+    font-weight: 400;
+    transition: all 0.4s ease-in-out;
+    border: none;
+   background-color:  #FFF348;
+    z-index: 22;
+}
+& button:hover{
+    background-color: #48AFFF;
+    color: white;
+}
+    
+}
+
+
+.filtertextbox{
+    padding: 0 19px;
+    margin-bottom: 20px;
+    
+    & h3{
+        font-size: 20px;
+        color: rgb(161, 159, 159);
+    }
+
+}
+
+
+@media (max-width:616px) {
+    .filterBtnDiv{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media (max-width:484px) {
+    .filterBtnDiv{
+        grid-template-columns:  1fr;
+    }
+    
+}
+

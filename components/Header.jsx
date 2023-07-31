@@ -70,6 +70,7 @@ const Header = () => {
 
         <div className="secTwo">
           <input type="search" placeholder="Search Here" />
+          <i class="fa-solid fa-magnifying-glass"></i>
         </div>
         <div className="secThree">
           <button className="loginBtn">Login</button>

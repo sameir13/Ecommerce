@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import '@/styles/Header.css'
 import '@/styles/Products.css'
+import '@/styles/filter.css'
 import '@/styles/Footer.css'
 import '@/styles/Banner.css'
 import '@/styles/MiddleProduct.css'

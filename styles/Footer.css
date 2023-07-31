@@ -41,7 +41,6 @@
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid black; */
 
   & a {
     margin-left: 10px;
@@ -68,7 +67,6 @@
     }
   }
 }
-
 .FooterMainHelpIcons {
   flex-wrap: wrap;
   background-color: #3eabff;
@@ -76,13 +74,10 @@
   padding: 16px 50px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
-
 .helpMainDiv1 {
   display: flex;
   align-items: center;
-
   & i {
     border: 1px solid white;
     display: flex;
@@ -108,14 +103,13 @@
     font-size: 17px;
   }
 }
-
 .FooterPaymentDiv {
   & img {
+    cursor: pointer;
     object-fit: cover;
     height: auto;
     max-width: 330px;
   }
-
   & p {
     color: white;
     margin-bottom: 30px;

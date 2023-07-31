@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 .MainSectionOneHeader {
   width: 100%;
   height: auto;
@@ -38,13 +34,24 @@
   color: white;
   font-size: 30px;
 }
-.secTwo input {
-  border: none;
-  border-radius: 10px;
-  width: 30vw;
-  transition: 0.3 ease-in-out;
-  font-size: 15px;
-  padding: 12px 10px;
+.secTwo {
+  position: relative;
+  & input {
+    border: none;
+    border-radius: 6px;
+    width: 30vw;
+    transition: 0.3 ease-in-out;
+    font-size: 15px;
+    padding: 12px 10px;
+  }
+  & i {
+    cursor: pointer;
+    font-size: 23px;
+    color: #1498ff;
+    top: 13px;
+    right: 11px;
+    position: absolute;
+  }
 }
 .secTwo input:focus {
   outline: none;

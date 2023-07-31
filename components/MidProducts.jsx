@@ -131,9 +131,9 @@ const MidProducts = () => {
                 <img src="/images/colprod.webp" alt="" />
               </div>
             </div>
-            <div className="">
+            <div className="ProductPriceTags">
               <p>Rs 8,899</p>
-              <div className="">
+              <div className="subPriceTag">
                 <p style={{ textDecoration: "line-through" }}>Rs 10,899</p>
                 <span
                   style={{
