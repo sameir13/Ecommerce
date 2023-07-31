@@ -57,17 +57,23 @@
   font-size: 15px;
   border: none;
   background-color: white;
-  color: #1498ff;
+  color: rgb(72, 175, 255);
+  transition: all 0.3s ease-in-out;
 }
 .RegisterBtn {
   padding: 5px 26px;
   border-radius: 5px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
   font-size: 15px;
   border: none;
   border: 1px solid white;
-  background-color: #1498ff;
+  background-color: rgb(72, 175, 255);
   color: white;
+}
+.RegisterBtn:hover {
+  background-color: white;
+  color: rgb(72, 175, 255);
 }
 @media (max-width: 677px) {
   .secThree {
@@ -95,34 +101,26 @@
   border-bottom: 2px solid #1498ff;
 }
 .SlickDisplayDiv {
-    margin: auto;
-    width: 85%;
+  margin: auto;
+  width: 85%;
 }
-.MainDivSectionOneFit{
+.MainDivSectionOneFit {
   object-fit: cover;
   height: 100%;
 }
-.MainDivSectionOneFit img{
+.MainDivSectionOneFit img {
+  max-width: 100%;
+  max-height: 500px;
+}
+.parentSlickMain {
+  background-color: white;
+}
+
+@media (max-width: 450px) {
+  .MainDivSectionOneFit img {
     max-width: 100%;
     max-height: 500px;
+    object-fit: inherit;
+    min-height: 200px;
+  }
 }
-
-@media (max-width:450px) {
-
-    .MainDivSectionOneFit img{
-        max-width: 100%;
-        max-height: 500px;
-        object-fit: inherit;
-        min-height: 200px;
-    }
-    
-}
-
-
-
-
-
-
-
-
-
